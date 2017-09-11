@@ -1,3 +1,0 @@
-teams, players
-PSG, Kevin Trapp, Dani Alves, Marquinhos, Thiago Silva, Layvin Kurzawa, Blaise Matuidi, Marco Verratti, Julian Draxter, Angel Di Maria, Neymar Jr, Edison Cavani
-Barca, Luis Suarez, Lionel Messi, Mark-Andre Ter Stegen, Sergio Roberto, Gerardo Pique, Samuel Umitti, Jordi Alba, Ivan Rakitic, Sergio Basquets, Adres Iniesta, Philippe  Countinho 
