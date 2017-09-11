@@ -68,3 +68,8 @@ class Game:
 
         return '{} IS THE WINNER! {} loses...\nFinal Score {} to {}'.format(
             w.name, l.name, w.score, l.score)
+
+    def changing(something):
+        "to git to github"
+        for i in delete:
+            i is something
