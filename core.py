@@ -24,8 +24,8 @@ class Futbol:
 
     def shoot(self):
         self.attempts -= 1
-
-        if choice([True, False]):
+        maybe = choice([True, False])
+        if maybe == True:
             self.score += 1
             os.system('clear')
             cprint(r'''
@@ -39,6 +39,19 @@ a8"    `Y88 a8"     "8a ""     `Y8 88
  `"YbbdP"Y8  `"YbbdP"'  `"8bbdP"Y8 88  
  aa,    ,88                            
   "Y8bbdP"        ''', 'blue')
+
+        elif maybe == False:
+            os.system('clear')
+            cprint(
+                r'''                                                     88  
+                                                     88  
+                                                     88  
+,adPPYba, ,adPPYYba, 8b       d8  ,adPPYba,  ,adPPYb,88  
+I8[    "" ""     `Y8 `8b     d8' a8P_____88 a8"    `Y88  
+ `"Y8ba,  ,adPPPPP88  `8b   d8'  8PP""""""" 8b       88  
+aa    ]8I 88,    ,88   `8b,d8'   "8b,   ,aa "8a,   ,d88  
+`"YbbdP"' `"8bbdP"Y8     "8"      `"Ybbd8"'  `"8bbdP"Y8  
+                                                         ''', 'blue')
 
 
 class Game:
