@@ -28,17 +28,18 @@ class Futbol:
         if maybe == True:
             self.score += 1
             os.system('clear')
+
             cprint(r'''
                                      
-                                   88  
-                                   88  
- ,adPPYb,d8  ,adPPYba,  ,adPPYYba, 88  
-a8"    `Y88 a8"     "8a ""     `Y8 88  
-8b       88 8b       d8 ,adPPPPP88 88  
-"8a,   ,d88 "8a,   ,a8" 88,    ,88 88  
- `"YbbdP"Y8  `"YbbdP"'  `"8bbdP"Y8 88  
+                        	             	                                                88  
+                        	 	                                                        88  
+,adPPYb,d8   ,adPPYba,   ,adPPYba,   ,adPPYba,    ,adPPYba,   ,adPPYba,   ,adPPYba,  ,adPPYYba, 88  
+a8"    `Y88 a8"     "8a a8"     "8a a8"     "8a  a8"     "8a a8"     "8a a8"     "8a ""     `Y8 88  
+8b       88 8b       d8 8b       d8 8b       d8	 8b       d8 8b       d8 8b       d8 ,adPPPPP88 88  
+"8a,   ,d88 "8a,   ,a8" "8a,   ,a8" "8a,   ,a8"	 "8a,   ,a8" "8a,   ,a8" "8a,   ,a8" 88,    ,88 88  
+ `"YbbdP"Y8  `"YbbdP"'   `"YbbdP"'   `"YbbdP"'    `"YbbdP"'   `"YbbdP"'   `"YbbdP"'  `"8bbdP"Y8 88  
  aa,    ,88                            
-  "Y8bbdP"        ''', 'blue')
+  "Y8bbdP"         ''', 'blue')
 
         elif maybe == False:
             os.system('clear')
