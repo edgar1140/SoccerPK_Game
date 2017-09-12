@@ -28,7 +28,6 @@ class Futbol:
         if maybe == True:
             self.score += 1
             os.system('clear')
-
             cprint(r'''
                                      
                         	             	                                                88  
@@ -41,8 +40,11 @@ a8"    `Y88 a8"     "8a a8"     "8a a8"     "8a  a8"     "8a a8"     "8a a8"    
  aa,    ,88                            
   "Y8bbdP"         ''', 'blue')
 
+            os.system('espeak "GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL!"')
+
         elif maybe == False:
             os.system('clear')
+
             cprint(
                 r'''                                                     88  
                                                      88  
@@ -53,6 +55,7 @@ I8[    "" ""     `Y8 `8b     d8' a8P_____88 a8"    `Y88
 aa    ]8I 88,    ,88   `8b,d8'   "8b,   ,aa "8a,   ,d88  
 `"YbbdP"' `"8bbdP"Y8     "8"      `"Ybbd8"'  `"8bbdP"Y8  
                                                          ''', 'blue')
+            os.system('espeak "What a save!"')
 
 
 class Game:
@@ -79,6 +82,8 @@ class Game:
         w, l = self.p2, self.p1
         if self.p1.score > self.p2.score:
             w, l = self.p1, self.p2
-
+        os.system(
+            'espeak "{}     IS THE WINNER!     {}     loses...     \nFinal Score {}   to   {}"'.
+            format(w.name, l.name, w.score, l.score))
         return '{} IS THE WINNER! {} loses...\nFinal Score {} to {}'.format(
             w.name, l.name, w.score, l.score)

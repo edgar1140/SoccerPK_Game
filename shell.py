@@ -43,7 +43,6 @@ def main():
         shoot(player_two)
 
     print(game.winner())
-
     cprint(r'''
                 _\\\_
                 /^  ^\
